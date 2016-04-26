@@ -1,5 +1,3 @@
-/*universal selector applies css declarations to everything, guantees styles will be overwritten
-may have to reduce put this first rule in your print css.*/
 * {
   background:transparent; !important
   color: black;
@@ -8,10 +6,9 @@ may have to reduce put this first rule in your print css.*/
 }
 
 
-  a {
+a {
     color: black;
   }
-
 
 h1 {
   font-size: 12pt;
@@ -42,6 +39,7 @@ article {
 img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  width: 131px;
 }
 
 nav, #awards, #honors, #work-samples {

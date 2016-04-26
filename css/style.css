@@ -1,73 +1,130 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat:400,700);
 
 body {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 14px;
-  padding: 0 2.5%;
-  background-color: #FCFAFF;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  padding: 20px;
 }
 
-.container {
-  padding: 0;
+header {
+  overflow: auto;
+  position: relative;
+}
+
+header img {
+  width: 144px;
+  display: inline-block;
+  float: left;
+}
+
+header nav {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+header nav ul li { /*why does this move on the resume page?!?!?!?*/
+  display: inline-block;
+  margin-right: 100px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li:first-child {
+  margin-left: 5px;
+}
+
+#landing-page img {
+  display: block;
+  width: 531px;
+  margin: 0px auto;
+  float: none;
+}
+
+#landing-page nav{
+  position: static;
+  width: 531px;
   margin: 0 auto;
-  max-width: 960px;
+  display: block;
 }
 
-a /*this is the link change the color*/ {
+h1 {
+  font-family: "Monserrat", sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: "Monserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Monserrat", sans-serif;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+div.resume-h1 {
+  margin-left: -300px;
+}
+
+div.design-description {
+  float: left;
+  max-width: 792px;
+  text-align: left;
+  padding-left: 300px;
+}
+/*put description inside the container*/
+
+div.imagescontainer {   /*float wouldn't work for this, is it okay that I am using text align? do the same thing where you do the margin, just center on the conatiner*/
+  margin: auto;
+  padding-left: 0;
+  max-width: 792px;
+}
+
+div.imagescontainer img {
+  width: 100%;
+}
+
+/* know the width of the image on landing page and then set it in css and then set margins on left and right and display: block; to auto*/
+
+/*made it a header
+div.image {
+  width: 10px;
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: auto;
+}
+*/
+
+div.contact {
+  float: left;
+  margin-top: 20px;
+}
+
+div.about-photo {
+  float: right;
+  margin-right: 100px;
+  padding: 10px;
+}
+
+a {
+  color: rgb(0, 157, 234);
+}
+
+a:active {
   color: #000;
 }
 
 a:visited {
-  color: rgb(0, 157, 234);
-}
-
-a:hover {
-  color: #000;
-}
-
-a:active {
-  color: rgb(231, 0, 122);
-}
-
-nav {
-  margin: 20px 0;
-}
-
-nav ul {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-img.logo {
-  margin: 5px;
-  padding:5px;
-  float: left;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 0px;
-  margin-left: 0;
-}
-
-div.contact {
-  float: right;
-  padding: 5px;
-  margin: 5px;
-}
-
-div.h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
-
-#education h3,
-#education p {
-  margin: 0;
+  color: rgb (0, 157, 234);
 }
