@@ -12,8 +12,8 @@ img {
 nav ul {
 }
 
-#landing-page img{
-  width: 200px;
+#landing-page img{ /*the heading image will not scale*/
+  width: 320px;
 }
 
 
