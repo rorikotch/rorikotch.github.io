@@ -12,9 +12,33 @@ img {
 nav ul {
 }
 
-#landing-page img{ /*the heading image will not scale*/
-  width: 320px;
+#landing-page img {
+  width: 300px;
+  margin: 0;
 }
+
+#landing-page nav{
+  position: static;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+body#landing-page {
+  padding: 0;
+}
+
+header nav ul li { /*why does this move on the resume page?!?!?!?*/
+  display: block;
+  margin-bottom: 10px;
+}
+
+header nav ul li:first-child {
+  margin-left: 0;
+}
+
+
+
 
 
 }
