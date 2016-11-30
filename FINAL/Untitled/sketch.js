@@ -5,7 +5,7 @@ function setup() {
 		createCanvas(800, 400);
 		background(255);
 		
-		var foo = new P5.Speech(); // speech synthesis object
+		var foo = new p5.Speech(); // speech synthesis object
 foo.speak('hi there'); // say something 
 
 		fill(0, 0, 0, 255);
