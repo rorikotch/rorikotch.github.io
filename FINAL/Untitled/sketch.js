@@ -1,4 +1,5 @@
-	var myRec = new p5.SpeechRec();
+var myRec = new p5.SpeechRec();
+myRec.continuous = true; 
 
 function setup() {
   	// graphics stuff:
