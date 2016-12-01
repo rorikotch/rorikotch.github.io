@@ -1,19 +1,9 @@
 var myRec = new p5.SpeechRec();
 myRec.continuous = true; 
 
-function setup() {
-  	// graphics stuff:
-		createCanvas(800, 400);
-		background(255);
-		
-		var foo = new p5.Speech(); // speech synthesis object
-foo.speak('hi there'); // say something 
-
-		fill(0, 0, 0, 255);
-		// instructions:
-		textSize(32);
-		textAlign(CENTER);
-		text("say something", width/2, height/2);
+function setup() {		
+    var foo = new p5.Speech(); // speech synthesis object
+    foo.speak('hi there'); // say something 
 		myRec.onResult = showResult;
 		myRec.start();
 }
@@ -27,10 +17,7 @@ function showResult()	{
 			background(192, 255, 192);
 			text(myRec.resultString, width/2, height/2);
 			//console.log(myRec.resultString);
-		} /*else {
-		  background(192, 255, 192);
-		  text("Speak Louder")
-		} */
+		} 
 		
 		console.log(myRec.resultString);
 	}
