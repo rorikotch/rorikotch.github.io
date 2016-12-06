@@ -23,7 +23,8 @@ function showResult() {
     // create a new set of p tags (<p></p>)
     // then add the text to our p tags.
     var pTag = document.createElement("p");
-    pTag.appendChild(myRec.resultString);
+    
+    pTag.appendChild(typeof(myRec.resultString));
 
     // <p>TriStar is a scary computer.</p>
 
