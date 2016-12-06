@@ -30,7 +30,7 @@ function showResult() {
    
     
     //pTag.innerHTML = myRec.resultString;
-      allMessage+=myRec.resultString;
+      allMessage = " " +  myRec.resultString;
       myP.html(allMessage);
 
     // <p>TriStar is a scary computer.</p>
