@@ -24,7 +24,7 @@ function showResult() {
     // then add the text to our p tags.
     var pTag = document.createElement("p");
     
-    pTag.innerHTML(myRec.resultString);
+    pTag.innerHTML = myRec.resultString;
 
     // <p>TriStar is a scary computer.</p>
 
