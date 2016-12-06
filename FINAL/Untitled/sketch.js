@@ -14,7 +14,7 @@ function setup() {
 
 
 function showResult() {
-    console.log(myRec.resultValue);
+    //console.log(myRec.resultValue);
 //  if(myRec.resultValue==true) {
 //
 //    // store the spoken text string in a variable
@@ -35,8 +35,8 @@ function showResult() {
 //    //transcript.appendChild(pTag);
 //  }
 
-  console.log(myRec)
-  console.log(myRec.resultString)
+ // console.log(myRec)
+//  console.log(myRec.resultString)
 }
 
 
