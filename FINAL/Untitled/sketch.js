@@ -1,6 +1,7 @@
 var myRec = new p5.SpeechRec();
 var pTag = document.createElement("p");
 var myP;
+var allMessage = "";
 
 // sets myRec to listen continuously
 myRec.continuous = true;
@@ -29,8 +30,8 @@ function showResult() {
    
     
     //pTag.innerHTML = myRec.resultString;
-      
-      myP.html(myRec.resultString);
+      allMessage+=myRec.resultString;
+      myP.html(allMessage);
 
     // <p>TriStar is a scary computer.</p>
 
