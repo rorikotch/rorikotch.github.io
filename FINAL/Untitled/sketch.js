@@ -31,7 +31,7 @@ function showResult() {
     // Then add the p tag created above.
 
     var transcript = document.getElementById("transcript");
-    transcript.appendChild(pTag);
+    //transcript.appendChild(pTag);
   }
 
   console.log(myRec)
