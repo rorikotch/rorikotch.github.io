@@ -18,7 +18,7 @@ function showResult() {
   if(myRec.resultValue==true) {
 
     // store the spoken text string in a variable
-    var capturedSpeech = document.createTextNode();
+    //var capturedSpeech = document.createTextNode();
 
     // create a new set of p tags (<p></p>)
     // then add the text to our p tags.
