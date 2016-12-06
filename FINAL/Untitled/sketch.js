@@ -14,7 +14,7 @@ function setup() {
 
 
 function showResult() {
-    console.log(myRec.resultValue==true);
+    console.log(myRec.resultValue);
 //  if(myRec.resultValue==true) {
 //
 //    // store the spoken text string in a variable
