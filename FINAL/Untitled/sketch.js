@@ -1,5 +1,6 @@
 var myRec = new p5.SpeechRec();
 var pTag = document.createElement("p");
+var myP;
 
 // sets myRec to listen continuously
 myRec.continuous = true;
@@ -11,7 +12,8 @@ function setup() {
   foo.speak("Yo");
   myRec.onResult = showResult;
   myRec.start();
-   
+    myP = createP('...Loading');
+
 }
 
 
@@ -26,7 +28,9 @@ function showResult() {
     // then add the text to our p tags.
    
     
-    pTag.innerHTML = myRec.resultString;
+    //pTag.innerHTML = myRec.resultString;
+      
+      myP.html(myRec.resultString);
 
     // <p>TriStar is a scary computer.</p>
 
