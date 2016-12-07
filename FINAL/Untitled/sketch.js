@@ -43,7 +43,7 @@ function showResult() {
     //transcript.appendChild(pTag);
   }
 
- console.log(myRec);
+ console.log(myRec)("result");
  console.log(myRec.resultString);
 }
 
