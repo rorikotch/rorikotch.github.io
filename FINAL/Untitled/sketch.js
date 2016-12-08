@@ -3,6 +3,7 @@ var pTag = document.createElement("p");
 var myP;
 var allMessage = "";
 
+
 // sets myRec to listen continuously
 myRec.continuous = true;
 // sets interimResults to give answers faster
@@ -31,8 +32,15 @@ function showResult() {
    
     //look at result
       
-      console.log(myRec.resultString.split(" "));
+      //console.log(myRec.resultString.split(" "));
       
+      //the easiest way to try to loop through it would be for word in ..
+      
+      
+      for (var word in myRec.resultString.split(" ")) {
+          console.log(word);
+      }
+        
       
       
       
