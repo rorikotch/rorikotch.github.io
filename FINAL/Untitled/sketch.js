@@ -36,9 +36,9 @@ function showResult() {
       
       //the easiest way to try to loop through it would be for word in ..
       
-      
-      for (var word in myRec.resultString.split(" ")) {
-          console.log(word);
+      var currentResult = myRec.resultString.split(" ");
+      for (var word in currentResult) {
+          console.log(currentResult[word]);
       }
         
       
