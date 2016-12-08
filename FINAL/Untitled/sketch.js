@@ -14,6 +14,7 @@ function setup() {
   myRec.onResult = showResult;
   myRec.start();
     myP = createP('...Loading');
+    myP.id("result");
 
 }
 
@@ -43,7 +44,7 @@ function showResult() {
     //transcript.appendChild(pTag);
   }
 
- console.log(myRec)("result");
+ console.log(myRec);
  console.log(myRec.resultString);
 }
 
