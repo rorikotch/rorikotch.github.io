@@ -29,10 +29,18 @@ function showResult() {
     // create a new set of p tags (<p></p>)
     // then add the text to our p tags.
    
-    
+    //look at result
+      
+      console.log(myRec.resultString.split(" "));
+      
+      
+      
+      
     //pTag.innerHTML = myRec.resultString;
       allMessage = allMessage + " " + myRec.resultString;
       myP.html(allMessage);
+      
+    
 
     // <p>TriStar is a scary computer.</p>
 
