@@ -16,7 +16,7 @@ function setup() {
   myRec.start();
     myP = createP('...Loading');
     myP.id("result");
-
+    myP.id("graph");
 }
 
 
