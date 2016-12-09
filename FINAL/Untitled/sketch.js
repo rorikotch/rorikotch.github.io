@@ -11,7 +11,7 @@ myRec.interimResults = true;
 
 function setup() {
   var foo = new p5.Speech();
-  foo.speak("Hello");
+  foo.speak("Talk to me");
   myRec.onResult = showResult;
   myRec.start();
     myP = createP('...Loading');
