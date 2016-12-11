@@ -39,7 +39,7 @@ function showResult() {
       for (var word in currentResult) {
          // console.log(currentResult[word]);
         
-      if (currentResult[word] == "hello" , "hi") {
+      if (currentResult[word] == "hello") {
           var foo = new p5.Speech();
           foo.speak("Hi there");
           //write it to do something here 
