@@ -42,13 +42,6 @@ function showResult() {
       if (currentResult[word] == "hello") {
           var foo = new p5.Speech();
           foo.speak("Hi there");
-        if (currentResult[word] == "you") {
-            var foo = new p5.Speech();
-            foo.speak("I'm fine, how are you")
-        }
-          //write it to do something here 
-          //do a console log first
-          //if you want a gif to pop up use the toggle true false example, you aregoing to gave a vasriable to say gif on, then in the draw loop you have if gifOn= true play the gif. Two ways you could do it, play the gif and immediately you set gifOn=false (so it doesnt play over and over) if the gif isn't playing out you might want to either use a timer or count framws. 
       }
       
       }
