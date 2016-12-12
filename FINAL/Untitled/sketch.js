@@ -50,19 +50,13 @@ function showResult() {
       } 
       }
     
+      //when you are more comfoprtable add text prompts for the user in the setup look at examples from class
       
       
     //pTag.innerHTML = myRec.resultString;
       allMessage = allMessage + " " + myRec.resultString;
       myP.html(allMessage);
       
-    
-
-    // <p>TriStar is a scary computer.</p>
-
-    // Now find where you want to add the new p.
-    // Get the element with the id "transcript"
-    // Then add the p tag created above.
 
     //var transcript = document.getElementById("transcript");
     //transcript.appendChild(pTag);
