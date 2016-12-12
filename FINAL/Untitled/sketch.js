@@ -2,6 +2,7 @@ var myRec = new p5.SpeechRec();
 var pTag = document.createElement("p");
 var myP;
 var allMessage = "";
+var foo;
 
 
 // sets myRec to listen continuously
@@ -10,7 +11,7 @@ myRec.continuous = true;
 myRec.interimResults = true;
 
 function setup() {
-  var foo = new p5.Speech();
+    foo = new p5.Speech();
   foo.speak("Speak now");
   myRec.onResult = showResult;
   myRec.start();
@@ -35,17 +36,19 @@ function showResult() {
       
       //the easiest way to try to loop through it would be for word in ..
       
-      var currentResult = myRec.resultString.split(" ");
-      for (var word in currentResult) {
-         // console.log(currentResult[word]);
+      var currentResult = myRec.resultString;
+      if (currentResult == "How are you"){
+          foo.speak("I am well, how are you"); 
+      } else {
         
+      for (var word in currentResult.split(" ")) {
+         // console.log(currentResult[word]);
+          
       if (currentResult[word] == "hello") {
-          var foo = new p5.Speech();
           foo.speak("Hi there");
       }
-      
+      } 
       }
-    
     
       
       
