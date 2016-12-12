@@ -38,7 +38,7 @@ function showResult() {
       
       var currentResult = myRec.resultString;
       if (currentResult == "How are you"){
-        var foo.speak("I am well, how are you"); 
+        foo.speak("I am well, how are you"); 
       } else {
         
       for (var word in currentResult.split(" ")) {
