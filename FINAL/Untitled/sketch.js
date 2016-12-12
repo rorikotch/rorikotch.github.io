@@ -43,6 +43,7 @@ function showResult() {
           var foo = new p5.Speech();
           foo.speak("Hi there");
         if (currentResult[word] == "how are you") {
+            var foo = new p5.Speech();
             foo.speak("I'm great, how are you")
         }
           //write it to do something here 
