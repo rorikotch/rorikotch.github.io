@@ -68,6 +68,12 @@ function showResult() {
           if (currentResult[word] == "netflix"){
               foo.speak("netflix and chill");
           }
+            if (currentResult[word] == "literally"){
+              foo.speak("Yeah, super");
+          }
+            if (currentResult[word] == "cats"){
+              foo.speak("They're the best");
+          }
       }
     
     
