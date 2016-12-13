@@ -2,6 +2,7 @@ var myRec = new p5.SpeechRec();
 var pTag = document.createElement("p");
 var myP;
 var allMessage = "";
+var foo;
 
 
 // sets myRec to listen continuously
@@ -37,7 +38,7 @@ function showResult() {
       
       var currentResult = myRec.resultString;
       if (currentResult == "How are you"){
-        var foo.speak("I am well, how are you"); 
+        foo.speak("I am well, how are you"); 
       } else {
         
       for (var word in currentResult.split(" ")) {
