@@ -65,6 +65,9 @@ function showResult() {
           if (currentResult[word] == "rosé"){
               foo.speak("i could drink a whole bottle in one sitting");
           }
+          if (currentResult[word] == "netflix"){
+              foo.speak("netflix and chill");
+          }
       }
     
     
