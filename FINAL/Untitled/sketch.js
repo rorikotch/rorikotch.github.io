@@ -44,6 +44,9 @@ function showResult() {
            foo = new p5.Speech();
           foo.speak("Hi there");
       }
+        if (currentResult[word] == "cool") {
+            foo.speak("I know, right");
+        } 
       }
     
     
