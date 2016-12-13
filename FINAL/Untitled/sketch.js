@@ -80,6 +80,9 @@ function showResult() {
             if (currentResult[word] == "drunk"){
               foo.speak("last night I was so ratchet");
           }
+            if (currentResult[word] == "No"){
+              foo.speak("wow, okay");
+          }
       }
     
     
