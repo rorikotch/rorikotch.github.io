@@ -47,6 +47,18 @@ function showResult() {
         if (currentResult[word] == "cool") {
             foo.speak("I know, right");
         } 
+        if (currentResult[word] == "you"){
+            foo.speak("who, me");
+        }
+          if (currentResult[word] == "homework"){
+              foo.speak("group projects are the worst");
+          }
+          if (currentResult[word] == "awesome"){
+              foo.speak("isn't it");
+          }
+          if (currentResult[word] == ""){
+              foo.speak("");
+          }
       }
     
     
