@@ -74,6 +74,12 @@ function showResult() {
             if (currentResult[word] == "cats"){
               foo.speak("They're the best");
           }
+            if (currentResult[word] == "guacamole"){
+              foo.speak("avos are my favorite");
+          }
+            if (currentResult[word] == "drunk"){
+              foo.speak("last night I was so ratchet");
+          }
       }
     
     
