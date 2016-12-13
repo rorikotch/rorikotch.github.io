@@ -59,6 +59,12 @@ function showResult() {
           if (currentResult[word] == "antiquing"){
               foo.speak("vintage is so cool");
           }
+          if (currentResult[word] == "brunch"){
+              foo.speak("bitches love brunch");
+          }
+          if (currentResult[word] == "rosé"){
+              foo.speak("i could drink a whole bottle in one sitting");
+          }
       }
     
     
