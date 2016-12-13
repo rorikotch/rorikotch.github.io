@@ -36,13 +36,7 @@ function showResult() {
       
       //the easiest way to try to loop through it would be for word in ..
       
-      
       var currentResult = myRec.resultString;
-       
-      if (currentResult[word] == "hello") {
-          foo.speak("Hi there");
-      }
-      
       if (currentResult == "How are you"){
         foo.speak("I am well, how are you"); 
       } else {
@@ -50,7 +44,9 @@ function showResult() {
       for (var word in currentResult.split(" ")) {
          // console.log(currentResult[word]);
           
-    
+      if (currentResult[word] == "hello") {
+          foo.speak("Hi there");
+      }
       } 
       }
     
