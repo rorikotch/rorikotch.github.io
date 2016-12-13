@@ -69,6 +69,22 @@ function showResult() {
  console.log(myRec.resultString);
 }
 
+function draw {
+    xPos++;
+  ellipse(xPos, height/2, 20, 20);
+  
+  if(xPos > width){
+    xPos = 0;
+  }
+}
+
+function mousePressed(){
+  counter++;
+  canvasImage = "images/myCanvas" + counter + ".jpg";
+  save(cnv, canvasImage);      // Saves canvas as an image
+  console.log("Saved");
+}
+}
 
 // If you want it to stop, put in Dev Tools console:
 // myRec.stop
