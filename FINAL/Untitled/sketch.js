@@ -2,6 +2,7 @@ var myRec = new p5.SpeechRec();
 var pTag = document.createElement("p");
 var myP;
 var allMessage = "";
+var foo; 
 
 
 // sets myRec to listen continuously
@@ -10,7 +11,7 @@ myRec.continuous = true;
 myRec.interimResults = true;
 
 function setup() {
-  var foo = new p5.Speech();
+    foo = new p5.Speech();
   foo.speak("Speak now");
   myRec.onResult = showResult;
   myRec.start();
@@ -40,10 +41,9 @@ function showResult() {
          // console.log(currentResult[word]);
         
       if (currentResult[word] == "hello") {
-          var foo = new p5.Speech();
+           foo = new p5.Speech();
           foo.speak("Hi there");
       }
-      
       }
     
     
