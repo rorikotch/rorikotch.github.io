@@ -56,8 +56,8 @@ function showResult() {
           if (currentResult[word] == "awesome"){
               foo.speak("isn't it");
           }
-          if (currentResult[word] == ""){
-              foo.speak("");
+          if (currentResult[word] == "antiquing"){
+              foo.speak("vintage is so cool");
           }
       }
     
