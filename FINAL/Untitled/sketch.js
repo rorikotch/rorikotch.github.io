@@ -62,7 +62,7 @@ function showResult() {
           if (currentResult[word] == "brunch"){
               foo.speak("bitches love brunch");
           }
-          if (currentResult[word] == "rose"){
+          if (currentResult[word] == "Rose"){
               foo.speak("rose all day");
           }
           if (currentResult[word] == "Netflix"){
