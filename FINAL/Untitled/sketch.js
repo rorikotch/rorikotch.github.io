@@ -63,7 +63,7 @@ function showResult() {
               foo.speak("bitches love brunch");
           }
           if (currentResult[word] == "rose"){
-              foo.speak("i could drink a whole bottle in one sitting");
+              foo.speak("rose all day");
           }
           if (currentResult[word] == "Netflix"){
               foo.speak("netflix and chill");
@@ -74,7 +74,7 @@ function showResult() {
             if (currentResult[word] == "cats"){
               foo.speak("They're the best");
           }
-            if (currentResult[word] == "avocado toast"){
+            if (currentResult[word] == "avocado"){
               foo.speak("avo toast is my favorite");
           }
             if (currentResult[word] == "drunk"){
