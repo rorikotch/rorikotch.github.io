@@ -4,7 +4,7 @@
         "code": "nj"
     },
     {
-        "value": 0.9,
+        "value":900,
         "code": "ri"
     },
     {
@@ -196,7 +196,7 @@
         "code": "wy"
     },
     {
-        "value": 0.3,
+        "value": 300,
         "code": "ak"
     }
 ]

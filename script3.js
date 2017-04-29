@@ -10,7 +10,7 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
     Highcharts.mapChart('map', {
 
         chart: {
-            borderWidth: 1
+            borderWidth: 0
         },
 
         title: {
