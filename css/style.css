@@ -121,11 +121,10 @@ a:visited{
 }
 
 #map {
-  width: 610px;
-  height: 600px;
-  min-width: 100%;
-  max-width: 100%;
-  margin-left: 10px 0 0 10px;
+height: 500px;
+min-width: 310px;
+max-width: 600px;
+margin: 0 auto;
 }
 
 video {
