@@ -7,7 +7,7 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
     });
 
     // Instanciate the map
-    Highcharts.mapChart('map', {
+    Highmaps.mapChart('map', {
 
         chart: {
             borderWidth: 1
