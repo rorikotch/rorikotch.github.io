@@ -1,0 +1,135 @@
+header nav {
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header nav ul {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  position: relative;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+li {
+  color: white;
+}
+
+.first {
+  /*font-family: 'Roboto Condensed';*/
+  color:white;
+}
+
+.homelink {
+  color:white;
+}
+
+/*a {
+  color: white;
+}*/
+
+p{
+  font-family: sans-serif;
+  margin: 10px 0 0 10px;
+}
+
+.homeh1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 120px;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.source {
+  font-family: sans-serif;
+  color: white;
+  font-style: italic;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+#container {
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#containtertwo {
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#containerthree {
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#containerfour {
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: 10px 0 0 10px;
+}
+
+#containerfive {
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: 10px 0 0 10px;
+}
+
+video {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+#sources {
+  font-size: 11px;
+  font-style: italic;
+}
