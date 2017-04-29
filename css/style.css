@@ -112,6 +112,14 @@ a:visited{
   margin-left: 10px 0 0 10px;
 }
 
+#map {
+  width: 610px;
+  height: 600px;
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: 10px 0 0 10px;
+}
+
 #chart {
   width: 610px;
   height: 600px;
