@@ -99,8 +99,8 @@ Highcharts.chart("containerfour", {
 //       });
 //     });
 
-Highcharts.chart("containerfive", {
-    renderTo: "containerfive",
+Highcharts.chart("chart", {
+    renderTo: "chart",
     title: {
         text: "U.S. Cheese Production Jan. 1990 to Jan. 2017"
     },
