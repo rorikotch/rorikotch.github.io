@@ -195,7 +195,7 @@ Highcharts.chart("container", {
                 },
                 name: 'Cows by Thousand',
                 tooltip: {
-                    pointFormat: '{point.code}: {point.value}/km²'
+                    pointFormat: '{point.code}: {point.value}'
                 }
             }]
         });
