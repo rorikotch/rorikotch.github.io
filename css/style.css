@@ -112,7 +112,7 @@ a:visited{
   margin-left: 10px 0 0 10px;
 }
 
-#map {
+#chart {
   width: 610px;
   height: 600px;
   min-width: 100%;
@@ -120,7 +120,7 @@ a:visited{
   margin-left: 10px 0 0 10px;
 }
 
-#chart {
+#map {
   width: 610px;
   height: 600px;
   min-width: 100%;
