@@ -54,7 +54,7 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
                 color: '#FFFFFF',
                 format: '{point.code}'
             },
-            name: 'Dairy Cows by Thousand',
+            name: 'Cows by Thousand',
             tooltip: {
                 pointFormat: '{point.code}: {point.value}/km²'
             }
