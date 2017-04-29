@@ -54,7 +54,7 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
                 color: '#FFFFFF',
                 format: '{point.code}'
             },
-            name: 'Population density',
+            name: 'Dairy Cows by Thousand',
             tooltip: {
                 pointFormat: '{point.code}: {point.value}/km²'
             }
