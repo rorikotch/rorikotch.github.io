@@ -144,7 +144,7 @@ Highcharts.chart("chart", {
       });
 
       // Instanciate the map
-      Highcharts.mapChart('map', {
+      .mapChart('map', {
 
           chart: {
               borderWidth: 1
