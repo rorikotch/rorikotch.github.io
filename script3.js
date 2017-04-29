@@ -7,7 +7,7 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
     });
 
     // Instanciate the map
-    Highcharts.mapChart('annoyed', {
+    Highcharts.mapChart('annoying', {
 
         chart: {
             borderWidth: 0
