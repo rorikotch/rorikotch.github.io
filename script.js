@@ -201,65 +201,87 @@ Highcharts.chart("container", {
         });
     });
 
+    var chart = Highcharts.chart('seven', {
 
-    Highcharts.chart('seven', {
         chart: {
-            type: 'bar'
+            type: 'column'
         },
+
         title: {
-            text: 'Historic World Population by Region'
+            text: 'Percentages of Global Greenhouse Gas Emissions by Economic Sector'
         },
+
         subtitle: {
-            text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>'
+            text: 'Resize the frame or click buttons to change appearance'
         },
-        xAxis: {
-            categories: ['Africa', 'America', 'Asia', 'Europe', 'Oceania'],
-            title: {
-                text: null
-            }
-        },
-        yAxis: {
-            min: 0,
-            title: {
-                text: 'Population (millions)',
-                align: 'high'
-            },
-            labels: {
-                overflow: 'justify'
-            }
-        },
-        tooltip: {
-            valueSuffix: ' millions'
-        },
-        plotOptions: {
-            bar: {
-                dataLabels: {
-                    enabled: true
-                }
-            }
-        },
+
         legend: {
-            layout: 'vertical',
             align: 'right',
-            verticalAlign: 'top',
-            x: -40,
-            y: 80,
-            floating: true,
-            borderWidth: 1,
-            backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-            shadow: true
+            verticalAlign: 'middle',
+            layout: 'vertical'
         },
-        credits: {
-            enabled: false
+
+        xAxis: {
+            categories: ['Agriculture, Forestry & Other Land Use', 'Buildings', 'Transportation', 'Industry', 'Other Energy', 'Electricity & Heat Production'],
+            labels: {
+                x: -10
+            }
         },
+
+        yAxis: {
+            allowDecimals: false,
+            title: {
+                text: 'Amount'
+            }
+        },
+
         series: [{
-            name: 'Year 1800',
-            data: [107, 31, 635, 203, 2]
+            name: 'Christmas Eve',
+            data: [1, 4, 3]
         }, {
-            name: 'Year 1900',
-            data: [133, 156, 947, 408, 6]
+            name: 'Christmas Day before dinner',
+            data: [6, 4, 2]
         }, {
-            name: 'Year 2012',
-            data: [1052, 954, 4250, 740, 38]
-        }]
+            name: 'Christmas Day after dinner',
+            data: [8, 4, 3]
+        }],
+
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 500
+                },
+                chartOptions: {
+                    legend: {
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
+    });
+
+    $('#small').click(function () {
+        chart.setSize(400, 300);
+    });
+
+    $('#large').click(function () {
+        chart.setSize(600, 300);
     });
