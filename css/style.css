@@ -32,26 +32,14 @@ li {
 }
 
 a {
-  color: orange;
+  color: #FFC107;
 }
 
 a:visited {
-  color: orange;
+  color: #FFC107;
   font-style: oblique;
 }
 
-/*a:visited{
-  color: orange;
-  font-style: oblique;
-}*/
-
-/*a {
-  color: orange;
-}*/
-
-/*a {
-  color: white;
-}*/
 
 p{
   font-family: sans-serif;
