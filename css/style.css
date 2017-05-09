@@ -112,14 +112,19 @@ a:visited{
   margin-left: 10px 0 0 10px;
 }
 
+.highcharts-background {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #chart {
   width: 610px;
   height: 600px;
   min-width: 100%;
   max-width: 100%;
   margin-left: 10px 0 0 10px;
-padding-bottom: 50px;
-  padding-top: 50px;
+/*padding-bottom: 50px;
+  padding-top: 50px;*/
 }
 
 #annoying {
