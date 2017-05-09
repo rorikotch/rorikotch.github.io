@@ -74,6 +74,10 @@ h1 {
   font-style: italic;
 }
 
+a {
+  color: orange;
+}
+
 a:visited{
   color: orange;
   font-style: oblique;
