@@ -71,7 +71,7 @@ Highcharts.chart("container", {
     Highcharts.chart('containerthree', {
 
         title: {
-            text: 'Milk Cows by Region from 2011 to 2015'
+            text: 'MILK COWS BY REGION FROM 2011 TO 2015'
         },
 
         subtitle: {
@@ -80,8 +80,8 @@ Highcharts.chart("container", {
 
         xAxis: {
           categories: [2011, 2012, 2013, 2014, 2015, 2016, 2017],
-            title: {
-                text: "Years"
+            // title: {
+                // text: "Years"
             }
         },
 
