@@ -14,7 +14,7 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
         },
 
         title: {
-            text: 'Cheese Producing States by Thousands of Cows'
+            text: 'CHEESE PRODUCING STATES BY THOUSANDS OF COWS'
         },
 
         legend: {

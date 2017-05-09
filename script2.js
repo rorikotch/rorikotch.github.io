@@ -2,7 +2,7 @@ Highcharts.chart("containerfour", {
 
 
     title: {
-        text: "U.S. Milk Production from 2010 to 2017"
+        text: "U.S. MILK PRODUCTION FROM 2010 TO 2017"
     },
 
     subtitle: {
