@@ -35,8 +35,13 @@ a:visited {
   color: orange;
 }
 
+/*a:visited{
+  color: orange;
+  font-style: oblique;
+}*/
+
 a {
-  color: orange; 
+  color: orange;
 }
 
 /*a {
@@ -81,12 +86,6 @@ h1 {
   color: white;
   font-style: italic;
 }
-
-a:visited{
-  color: orange;
-  font-style: oblique;
-}
-
 
 #container {
   width: 610px;
