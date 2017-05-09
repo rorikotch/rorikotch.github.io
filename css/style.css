@@ -21,15 +21,15 @@ header nav ul li {
 li {
   color: white;
 }
-
+/*
 .first {
-  /*font-family: 'Roboto Condensed';*/
+  font-family: 'Roboto Condensed';
   color:white;
 }
 
 .homelink {
   color:white;
-}
+}*/
 
 a:visited {
   color: orange;
@@ -51,7 +51,7 @@ a {
 p{
   font-family: sans-serif;
   margin: 10px 0 0 10px;
-  color: black; 
+  color: black;
 }
 
 .homeh1 {
