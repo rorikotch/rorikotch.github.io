@@ -190,7 +190,7 @@ Highcharts.chart("container", {
                 joinBy: ['postal-code', 'code'],
                 dataLabels: {
                     enabled: true,
-                    color: '#FFFFFF',
+                    color: '#FFA500',
                     format: '{point.code}'
                 },
                 name: 'Cows by Thousand',
