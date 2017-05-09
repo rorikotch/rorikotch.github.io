@@ -37,7 +37,7 @@ Highcharts.chart("containerfour", {
 Highcharts.chart("chart", {
     renderTo: "chart",
     title: {
-        text: "U.S. Cheese Production Jan. 1990 to Jan. 2017"
+        text: "U.S. CHEESE PRODUCTION FROM JAN. 1990 TO JAN. 2017"
     },
 
     subtitle: {
@@ -64,7 +64,7 @@ Highcharts.chart("chart", {
     },
 
     series: [{
-        name: "Production",
+        // name: "Production",
         data: [492980000, 501954000, 520389000, 517261000, 538029000, 561722000, 589951000, 598166000, 617245000, 636971000, 693003000, 693797000, 713939000, 709599000, 738086000, 754667000, 782370000, 828272000, 819441000, 823902000, 842519000, 883505000, 911773000, 931691000, 962429000, 994542000, 1003278000, 1044983000]
     }]
   });
