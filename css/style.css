@@ -21,7 +21,7 @@ header nav ul li {
 li {
   color: white;
 }
-/*
+
 .first {
   font-family: 'Roboto Condensed';
   color:white;
@@ -29,10 +29,15 @@ li {
 
 .homelink {
   color:white;
-}*/
+}
+
+a {
+  color: orange;
+}
 
 a:visited {
   color: orange;
+  font-style: oblique;
 }
 
 /*a:visited{
@@ -40,9 +45,9 @@ a:visited {
   font-style: oblique;
 }*/
 
-a {
+/*a {
   color: orange;
-}
+}*/
 
 /*a {
   color: white;
