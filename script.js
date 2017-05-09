@@ -172,12 +172,12 @@ Highcharts.chart("container", {
             colorAxis: {
                 min: 1,
                 type: 'logarithmic',
-                minColor: '#FFEDCC',
-                maxColor: '#FFA500',
+                minColor: '#EEEEFF',
+                maxColor: '#000022',
                 stops: [
-                    [0, '#FFEDCC'],
-                    [0.67, '#FFD27F'],
-                    [1, '#FFA500']
+                    [0, '#EFEFFF'],
+                    [0.67, '#4444FF'],
+                    [1, '#000022']
                 ]
             },
 
@@ -190,7 +190,7 @@ Highcharts.chart("container", {
                 joinBy: ['postal-code', 'code'],
                 dataLabels: {
                     enabled: true,
-                    color: '#FFA500',
+                    color: '#FFFFFF',
                     format: '{point.code}'
                 },
                 name: 'Cows by Thousand',
