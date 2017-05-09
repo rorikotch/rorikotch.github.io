@@ -31,6 +31,10 @@ li {
   color:white;
 }
 
+a:visited {
+  color: orange; 
+}
+
 /*a {
   color: white;
 }*/
