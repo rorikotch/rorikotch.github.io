@@ -138,3 +138,7 @@ video {
   font-size: 11px;
   font-style: italic;
 }
+
+body {
+  margin: none; 
+}
