@@ -172,12 +172,12 @@ Highcharts.chart("container", {
             colorAxis: {
                 min: 1,
                 type: 'logarithmic',
-                minColor: '#EEEEFF',
-                maxColor: '#000022',
+                minColor: '#FFEDCC',
+                maxColor: '#FFA500',
                 stops: [
-                    [0, '#EFEFFF'],
-                    [0.67, '#4444FF'],
-                    [1, '#000022']
+                    [0, '#FFEDCC'],
+                    [0.67, '#FFD27F'],
+                    [1, '#FFA500']
                 ]
             },
 
