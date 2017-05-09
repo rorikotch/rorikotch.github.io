@@ -36,7 +36,7 @@ Highcharts.chart("container", {
   Highcharts.chart("containertwo", {
 
       title: {
-          text: "U.S. Exports by Volume in Metric Tons"
+          text: "U.S. EXPORTS BY VOLUME IN METRIC TONS"
       },
 
       subtitle: {
