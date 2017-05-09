@@ -1,7 +1,7 @@
 Highcharts.chart("container", {
 
     title: {
-        text: "U.S. Cheese Production Jan. 1990 to Jan. 2017"
+        text: "U.S. CHEESE PRODUCTION JAN. 1990 TO JAN. 2017"
     },
 
     subtitle: {
@@ -153,7 +153,7 @@ Highcharts.chart("container", {
             },
 
             title: {
-                text: 'Cheese Producing States by Thousands of Cows'
+                text: 'CHEESE PRODUCING STATES BY THOUSANDS OF COWS'
             },
 
             legend: {
