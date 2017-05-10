@@ -28,7 +28,8 @@ Highcharts.chart("container", {
 
     plotOptions: {
         series: {
-            pointStart: 1990
+            pointStart: 1990 ,
+            color: '#F28500'
         }
     },
 
@@ -67,7 +68,8 @@ Highcharts.chart("container", {
 
       plotOptions: {
           series: {
-              pointStart: 2010
+              pointStart: 2010 ,
+              color: '#F28500'
           }
       },
 
