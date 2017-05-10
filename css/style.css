@@ -19,7 +19,7 @@ header nav ul li {
 }
 
 li {
-  color: white;
+  color: #F28500;
 }
 
 .first {
@@ -32,11 +32,11 @@ li {
 }
 
 a {
-  color: #FFC107;
+  color: #F28500;
 }
 
 a:visited {
-  color: #FFC107;
+  color: #F28500;
   font-style: oblique;
 }
 
@@ -45,7 +45,7 @@ p{
   font-family: sans-serif;
   margin: 10px 0 0 10px;
   color: black;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .homeh1 {
