@@ -77,16 +77,16 @@ h1 {
 }
 
 a {
-  color: orange;
+  color: #F28500;
 }
 
 a:visited{
-  color: orange;
+  color: #F28500;
   font-style: oblique;
 }
 
 a:hover {
-  color: orange;
+  color: #F28500;
 }
 
 #container {
