@@ -8,6 +8,11 @@ Highcharts.chart("container", {
         text: "This data was sourced from the U.S.D.A. Department of Agriculture"
     },
 
+    legend: {
+      enabled: false
+    },
+
+
     yAxis: {
         title: {
             text: "Millions of Pounds"
@@ -41,6 +46,10 @@ Highcharts.chart("container", {
 
       subtitle: {
           text: "This data was sourced from the U.S.D.A. Department of Agriculture"
+      },
+
+      legend: {
+        enabled: false
       },
 
       yAxis: {
