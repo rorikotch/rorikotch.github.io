@@ -23,7 +23,8 @@ $.getJSON('http://cheeseproject.me/data.html?', function (data) {
             backgroundColor: 'rgba(255,255,255,0.85)',
             floating: true,
             verticalAlign: 'top',
-            y: 25
+            y: 300 ,
+            x: 350
         },
 
         mapNavigation: {
