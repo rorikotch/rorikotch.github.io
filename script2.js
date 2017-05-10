@@ -71,10 +71,10 @@ Highcharts.chart("chart", {
 
 
   // Get the modal
-var modal = document.getElementById('modal-one');
+var modal = document.getElementById('modal-one', 'modal-two');
 
 // Get the button that opens the modal
-var btn = document.getElementById("button-one");
+var btn = document.getElementById("button-one", "button-two");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
