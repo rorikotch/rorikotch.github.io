@@ -82,7 +82,7 @@ Highcharts.chart("container", {
     Highcharts.chart('containerthree', {
 
         title: {
-            text: 'MILK COWS BY REGION FROM 2011 TO 2015'
+            text: 'MILK PRODUCTION BY REGION FROM 2011 TO 2015'
         },
 
         subtitle: {
