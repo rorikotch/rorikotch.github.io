@@ -183,13 +183,13 @@ Highcharts.chart("container", {
             colorAxis: {
                 min: 1,
                 type: 'logarithmic',
-                minColor: '#EEEEFF',
-                maxColor: '#000022',
-                stops: [
-                    [0, '#EFEFFF'],
-                    [0.67, '#4444FF'],
-                    [1, '#000022']
-                ]
+                minColor: '#FFF9F2',
+                maxColor: '#F28500',
+                // stops: [
+                //     [0, '#EFEFFF'],
+                //     [0.67, '#4444FF'],
+                //     [1, '#000022']
+                // ]
             },
 
             series: [{
