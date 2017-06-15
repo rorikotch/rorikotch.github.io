@@ -1,0 +1,162 @@
+[{
+  name: "Ashton Cigar Bar",
+  lat: 39.949458,
+  long: -75.167106
+  }, {
+  name: "Brandy Library",
+  lat: 40.719926,
+  long: -74.007305
+  }, {
+  name: "Butcher & The Rye",
+  lat: 40.442391,
+  long: -80.002098
+  } , {
+  name: "Copper & Oak",
+  lat: 40.721022,
+  long: -73.989708
+  } , {
+  name: "The Flatiron Room",
+  lat: 40.744505,
+  long: -73.990454
+  }, {
+  name: "Noorman's Kil",
+  lat: 40.711428,
+  long: -73.947816
+  }, {
+  name: "Sanford's Restaurant",
+  lat: 40.762294,
+  long: -73.925563
+}, {
+  name: "Village Whiskey",
+  lat: 39.951446,
+  long:-75.173793
+} , {
+  name: "The Whiskey Ward",
+  lat: 40.719648,
+  long:  -73.987889
+}, {
+  name: "Boyd's Jig and Reel",
+  lat: 35.970242,
+  long: -83.918542
+} , {
+  name: "The Crunkleton",
+  lat: 35.911495,
+  long: -79.060722
+} , {
+  name: "Dry 85",
+  lat: 38.977773,
+  long: -76.490828
+}, {
+  name: "Haymarket Whiskey Bar",
+  lat: 38.254218,
+  long: -85.746923
+}, {
+  name: "Jack Rose Dining Saloon",
+  lat: 38.917393,
+  long: -77.041290
+}, {
+  name: "The Miller House",
+  lat: 37.771963,
+  long: -87.108379
+} , {
+  name: "Old Hickory Whiskey Bar",
+  lat: 30.410502,
+  long: -87.215074
+} , {
+  name: "Proof on Main",
+  lat: 38.256993,
+  long: -85.761773
+}, {
+  name: "Reserve 101",
+  lat: 29.753636,
+  long: -95.363518
+} , {
+  name: "The Silver Dollar",
+  lat: 38.256975,
+  long: -85.716769
+}, {
+  name: "The Butter Run Saloon",
+  lat: 42.495615,
+  long: -82.897325
+}, {
+  name: "The Century",
+  lat: 39.759466,
+  long: -84.189647
+} , {
+  name: "Delilah's",
+  lat: 41.932239,
+  long: -87.658139
+}, {
+  name: "Dubh Linn",
+  lat: 46.785852,
+  long: -92.100183
+} , {
+  name: "Dundee Dell",
+  lat: 41.259185,
+  long: -95.986451
+}, {
+  name: "Longman & Eagle",
+  lat: 41.930084,
+  long: -87.707146
+}, {
+  name: "Scotch & Soda",
+  lat: 37.207831,
+  long: -93.292125
+}, {
+  name: "Untitled Supper Club",
+  lat: 41.888952,
+  long: -87.631736
+}, {
+  name: "The Whiskey House",
+  lat: 41.704843,
+  long: -93.627359
+}, {
+  name: "Aero Club Bar",
+  lat: 32.738070,
+  long: -117.176506
+}, {
+  name: "Bar Jackalope",
+  lat: 34.047132,
+  long: -118.255814
+}, {
+  name: "The Broken Record",
+  lat: 37.714373,
+  long: -122.436942
+}, {
+  name: "Canon",
+  lat: 47.611276,
+  long: -122.316500
+}, {
+  name: "Elixir",
+  lat: 37.764900,
+  long: -122.424298
+}, {
+  name: "Hard Water",
+  lat: 37.797583,
+  long: -122.395566
+}, {
+  name: "Multnomah Whiskey Library",
+  lat: 45.520986,
+  long: -122.683454
+}, {
+  name: "Nihon Whisky Lounge",
+  lat: 37.768639,
+  long: -122.415521
+}, {
+  name: "The Whisk(e)y",
+  lat: 40.584898,
+  long: -105.076664
+}, {
+  name: "Whisky Attic",
+  lat: 36.108942,
+  long: -115.205551
+}, {
+  name: "The Whisky Bar",
+  lat: 47.613175,
+  long: -122.343623
+}, {
+  name: "The Whiskey House",
+  lat: 32.709723,
+  long: -117.162251
+}
+}]
