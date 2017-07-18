@@ -1,5 +1,4 @@
-?([
-{
+[{
   "name": "Ashton Cigar Bar",
   "city": "Philadelphia, Pennsylvania",
   "lat": 39.949458,
@@ -239,5 +238,4 @@
   "lat": 32.709723,
   "lon": -117.162251,
   "population": 10
-}
-]);
+}];
