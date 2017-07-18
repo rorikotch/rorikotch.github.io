@@ -1,203 +1,243 @@
 ?([
 {
-  name: "Ashton Cigar Bar",
-  city: "Philadelphia, Pennsylvania",
-  lat: 39.949458,
-  lon: -75.167106
+  "name": "Ashton Cigar Bar",
+  "city": "Philadelphia, Pennsylvania",
+  "lat": 39.949458,
+  "lon": -75.167106,
+  "population": 10
   }, {
-  name: "Brandy Library",
-  city: "New York, New York",
-  lat: 40.719926,
-  lon: -74.007305
+  "name": "Brandy Library",
+  "city": "New York, New York",
+  "lat": 40.719926,
+  "lon": -74.007305,
+  "population": 10
   }, {
-  name: "Butcher & The Rye",
-  city: "Pittsburgh, Pennsylvania",
-  lat: 40.442391,
-  lon: -80.002098
+  "name: "Butcher & The Rye",
+  "city": "Pittsburgh, Pennsylvania",
+  "lat": 40.442391,
+  "lon: -80.002098,
+  "population": 10
   } , {
-  name: "Copper & Oak",
-  city: "New York, New York",
-  lat: 40.721022,
-  lon: -73.989708
+  "name": "Copper & Oak",
+  "city": "New York, New York",
+  "lat": 40.721022,
+  "lon": -73.989708,
+  "population": 10
   } , {
-  name: "The Flatiron Room",
-  city: "New York, New York",
-  lat: 40.744505,
-  lon: -73.990454
+  "name": "The F"lat"iron Room",
+  "city": "New York, New York",
+  "lat": 40.744505,
+  "lon": -73.990454,
+  "population": 10
   }, {
-  name: "Noorman's Kil",
-  city: "Brooklyn, New York",
-  lat: 40.711428,
-  lon: -73.947816
+  "name": "Noorman's Kil",
+  "city": "Brooklyn, New York",
+  "lat": 40.711428,
+  "lon": -73.947816,
+  "population": 10
   }, {
-  name: "Sanford's Restaurant",
-  city: "Astoria, New York",
-  lat: 40.762294,
-  lon: -73.925563
+  "name": "Sanford's Restaurant",
+  "city": "Astoria, New York",
+  "lat": 40.762294,
+  "lon": -73.925563,
+  "population": 10
 }, {
-  name: "Village Whiskey",
-  city: "Philadelphia, Pennsylvania",
-  lat: 39.951446,
-  lon:-75.173793
+  "name": "Village Whiskey",
+  "city": "Philadelphia, Pennsylvania",
+  "lat": 39.951446,
+  "lon":-75.173793,
+  "population": 10
 } , {
-  name: "The Whiskey Ward",
-  city: "New York, New York",
-  lat: 40.719648,
-  lon:  -73.987889
+  "name": "The Whiskey Ward",
+  "city": "New York, New York",
+  "lat": 40.719648,
+  "lon":  -73.987889,
+  "population": 10
 }, {
-  name: "Boyd's Jig and Reel",
-  city: "Knoxville, Tennessee",
-  lat: 35.970242,
-  lon: -83.918542
+  "name": "Boyd's Jig and Reel",
+  "city": "Knoxville, Tennessee",
+  "lat": 35.970242,
+  "lon": -83.918542,
+  "population": 10
 } , {
-  name: "The Crunkleton",
-  city: "Chapel Hill, North Carolina",
-  lat: 35.911495,
-  lon: -79.060722
+  "name": "The Crunkleton",
+  "city": "Chapel Hill, North Carolina",
+  "lat": 35.911495,
+  "lon": -79.060722,
+  "population": 10
 } , {
-  name: "Dry 85",
-  city: "Annapolis, Maryland",
-  lat: 38.977773,
-  lon: -76.490828
+  "name": "Dry 85",
+  "city": "Annapolis, Maryland",
+  "lat": 38.977773,
+  "lon": -76.490828,
+  "population": 10
 }, {
-  name: "Haymarket Whiskey Bar",
-  city: "Louisville, Kentucky",
-  lat: 38.254218,
-  lon: -85.746923
+  "name": "Haymarket Whiskey Bar",
+  "city": "Louisville, Kentucky",
+  "lat": 38.254218,
+  "lon": -85.746923,
+  "population": 10
 }, {
-  name: "Jack Rose Dining Saloon",
-  city: "Washington D.C.",
-  lat: 38.917393,
-  lon: -77.041290
+  "name": "Jack Rose Dining Saloon",
+  "city": "Washington D.C.",
+  "lat": 38.917393,
+  "lon": -77.041290,
+  "population": 10
 }, {
-  name: "The Miller House",
-  city: "Owensboro, Kentucky",
-  lat: 37.771963,
-  lon: -87.108379
+  "name": "The Miller House",
+  "city": "Owensboro, Kentucky",
+  "lat": 37.771963,
+  "lon": -87.108379,
+  "population": 10
 } , {
-  name: "Old Hickory Whiskey Bar",
-  city: "Pensacola, Florida",
-  lat: 30.410502,
-  lon: -87.215074
+  "name": "Old Hickory Whiskey Bar",
+  "city": "Pensacola, Florida",
+  "lat": 30.410502,
+  "lon": -87.215074,
+  "population": 10
 } , {
-  name: "Proof on Main",
-  city: "Louisville, Kentucky",
-  lat: 38.256993,
-  lon: -85.761773
+  "name": "Proof on Main",
+  "city": "Louisville, Kentucky",
+  "lat": 38.256993,
+  "lon": -85.761773,
+  "population": 10
 }, {
-  name: "Reserve 101",
-  city: "Houston, Texas",
-  lat: 29.753636,
-  lon: -95.363518
+  "name": "Reserve 101",
+  "city": "Houston, Texas",
+  "lat": 29.753636,
+  "lon": -95.363518,
+  "population": 10
 } , {
-  name: "The Silver Dollar",
-  city: "Louisville, Kentucky",
-  lat: 38.256975,
-  lon: -85.716769
+  "name": "The Silver Dollar",
+  "city": "Louisville, Kentucky",
+  "lat": 38.256975,
+  "lon": -85.716769,
+  "population": 10
 }, {
-  name: "The Butter Run Saloon",
-  city: "St. Clair Shores, Michigan",
-  lat: 42.495615,
-  lon: -82.897325
+  "name": "The Butter Run Saloon",
+  "city": "St. Clair Shores, Michigan",
+  "lat": 42.495615,
+  "lon": -82.897325,
+  "population": 10
 }, {
-  name: "The Century",
-  city: "Dayton, Ohio",
-  lat: 39.759466,
-  lon: -84.189647
+  "name": "The Century",
+  "city": "Dayton, Ohio",
+  "lat": 39.759466,
+  "lon": -84.189647,
+  "population": 10
 } , {
-  name: "Delilah's",
-  city: "Chicago, Illinois",
-  lat: 41.932239,
-  lon: -87.658139
+  "name": "Delilah's",
+  "city": "Chicago, Illinois",
+  "lat": 41.932239,
+  "lon": -87.658139,
+  "population": 10
 }, {
-  name: "Dubh Linn",
-  city: "Duluth, Minnesota",
-  lat: 46.785852,
-  lon: -92.100183
+  "name": "Dubh Linn",
+  "city": "Duluth, Minnesota",
+  "lat": 46.785852,
+  "lon": -92.100183,
+  "population": 10
 } , {
-  name: "Dundee Dell",
-  city: "Omaha, Nebraska",
-  lat: 41.259185,
-  lon: -95.986451
+  "name": "Dundee Dell",
+  "city": "Omaha, Nebraska",
+  "lat": 41.259185,
+  "lon": -95.986451,
+  "population": 10
 }, {
-  name: "Longman & Eagle",
-  city: "Chicago, Illinois",
-  lat: 41.930084,
-  lon: -87.707146
+  "name": """lon""man & Eagle",
+  "city": "Chicago, Illinois",
+  "lat": 41.930084,
+  "lon": -87.707146,
+  "population": 10
 }, {
-  name: "Scotch & Soda",
-  city: "Springfield, Missouri",
-  lat: 37.207831,
-  lon: -93.292125
+  "name": "Scotch & Soda",
+  "city": "Springfield, Missouri",
+  "lat": 37.207831,
+  "lon": -93.292125,
+  "population": 10
 }, {
-  name: "Untitled Supper Club",
-  city: "Chicago, Illinois",
-  lat: 41.888952,
-  lon: -87.631736
+  "name": "Untitled Supper Club",
+  "city": "Chicago, Illinois",
+  "lat": 41.888952,
+  "lon": -87.631736,
+  "population": 10
 }, {
-  name: "The Whiskey House",
-  city: "Ankeny, Iowa",
-  lat: 41.704843,
-  lon: -93.627359
+  "name": "The Whiskey House",
+  "city": "Ankeny, Iowa",
+  "lat": 41.704843,
+  "lon": -93.627359,
+  "population": 10
 }, {
-  name: "Aero Club Bar",
-  city: "San Diego, California",
-  lat: 32.738070,
-  lon: -117.176506
+  "name": "Aero Club Bar",
+  "city": "San Diego, California",
+  "lat": 32.738070,
+  "lon": -117.176506,
+  "population": 10
 }, {
-  name: "Bar Jackalope",
-  city: "Los Angeles, California",
-  lat: 34.047132,
-  lon: -118.255814
+  "name": "Bar Jackalope",
+  "city": "Los Angeles, California",
+  "lat": 34.047132,
+  "lon": -118.255814,
+  "population": 10
 }, {
-  name: "The Broken Record",
-  city: "San Fransisco, California",
-  lat: 37.714373,
-  lon: -122.436942
+  "name": "The Broken Record",
+  "city": "San Fransisco, California",
+  "lat": 37.714373,
+  "lon": -122.436942,
+  "population": 10
 }, {
-  name: "Canon",
-  city: "Seattle, Washington",
-  lat: 47.611276,
-  lon: -122.316500
+  "name": "Canon",
+  "city": "Seattle, Washington",
+  "lat": 47.611276,
+  "lon": -122.316500,
+  "population": 10
 }, {
-  name: "Elixir",
-  city: "San Fransisco, California",
-  lat: 37.764900,
-  lon: -122.424298
+  "name": "Elixir",
+  "city": "San Fransisco, California",
+  "lat": 37.764900,
+  "lon": -122.424298,
+  "population": 10
 }, {
-  name: "Hard Water",
-  city: "San Fransisco, California",
-  lat: 37.797583,
-  lon: -122.395566
+  "name": "Hard Water",
+  "city": "San Fransisco, California",
+  "lat": 37.797583,
+  "lon": -122.395566,
+  "population": 10
 }, {
-  name: "Multnomah Whiskey Library",
-  city: "Portland, Oregon",
-  lat: 45.520986,
-  lon: -122.683454
+  "name": "Multnomah Whiskey Library",
+  "city": "Portland, Oregon",
+  "lat": 45.520986,
+  "lon": -122.683454,
+  "population": 10
 }, {
-  name: "Nihon Whisky Lounge",
-  city: "San Fransisco, California",
-  lat: 37.768639,
-  lon: -122.415521
+  "name": "Nihon Whisky Lounge",
+  "city": "San Fransisco, California",
+  "lat": 37.768639,
+  "lon": -122.415521,
+  "population": 10
 }, {
-  name: "The Whisk(e)y",
-  city: "Fort Collins, Colorado",
-  lat: 40.584898,
-  lon: -105.076664
+  "name": "The Whisk(e)y",
+  "city": "Fort Collins, Colorado",
+  "lat": 40.584898,
+  "lon": -105.076664,
+  "population": 10
 }, {
-  name: "Whisky Attic",
-  city: "Las Vegas, Nevada",
-  lat: 36.108942,
-  lon: -115.205551
+  "name": "Whisky Attic",
+  "city": "Las Vegas, Nevada",
+  "lat": 36.108942,
+  "lon": -115.205551,
+  "population": 10
 }, {
-  name: "The Whisky Bar",
-  city: "Seattle, Washington",
-  lat: 47.613175,
-  lon: -122.343623
+  "name": "The Whisky Bar",
+  "city": "Seattle, Washington",
+  "lat": 47.613175,
+  "lon": -122.343623,
+  "population": 10
 }, {
-  name: "The Whiskey House",
-  city: "San Diego, California",
-  lat: 32.709723,
-  lon: -117.162251
+  "name": "The Whiskey House",
+  "city": "San Diego, California",
+  "lat": 32.709723,
+  "lon": -117.162251,
+  "population": 10
 }
 ]);
